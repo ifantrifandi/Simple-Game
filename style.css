@@ -1,0 +1,123 @@
+html,body{
+    height: 100%;
+}
+#main-menu{
+    background-image: url('https://media.gettyimages.com/videos/red-dice-rolling-against-green-background-vieux-pont-normandy-france-video-id139137964?s=640x640');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    border: 5px dashed grey;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat ;
+    width: 1100px;
+    margin: 0 auto;
+}
+.main-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+#red-box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#blue-box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+table {
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+td{
+    text-align: center;
+    vertical-align: center;
+    border: black 1px solid;
+    width: 50%;
+}
+
+#my-choice{
+    margin-top: 10px;
+}
+
+#box-racing , #suit , #rpg{
+    border: 3px dashed grey;
+    width: 20%;
+    height: 300px;
+    display: inline-block;
+    background-color: white;
+    color: black;
+}
+#box-racing img, #suit img, #rpg img {
+    border: 5px solid black;
+}
+
+#your-choice, #enemy-choice{
+    border: 3px dashed grey;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.game-choice div img{
+    width: 175px;
+    height: 175px;
+    margin: 25px auto;
+}
+
+.game-choice div, .game-choice{
+    text-align: center;
+}
+
+#light-dark-mode{
+    text-align: right;
+}
+
+#rock-image, #paper-image, #scissor-image{
+    display: none;
+    margin-top: 50px;
+}
+
+
+#my-rock-image, #my-paper-image, #my-scissor-image{
+    display: none;
+}
+
+
+#back-to-menu{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#back-to-menu a{
+    text-decoration: none;
+}
+
+#instruction:hover{
+    background-color: grey;
+}
+
+#rock:hover, #paper:hover, #scissor:hover{
+    background-color: grey;
+}

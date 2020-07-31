@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock Scissor Paper</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body class="light-mode">
+        <div id='light-dark-mode'>
+            <input type="button" value="Light" id="button-light-dark">
+        </div>
+        <div class="main-title">
+            <h1>Welcome to Rock Scissor Paper Game</h1>
+            <input type="button" value="Instruction" id="instruction">
+        </div>
+        <div>
+            <table>
+                <tr>
+                    <td id="your-choice">
+                    <div >
+                        <h3>Your Choice!</h3>
+                        <input type="button" value="Rock" id="rock" class="button-choice">
+                        <input type="button" value="Paper" id="paper" class="button-choice">
+                        <input type="button" value="Scissor" id="scissor" class="button-choice">
+                        
+                        <div id="my-choice">
+                            <div class='image-enemy-choice' id="my-rock-image"><img src="rock.png"></div>
+                            <div class='image-enemy-choice' id="my-paper-image"><img src="paper.png"></div>
+                            <div class='image-enemy-choice' id="my-scissor-image"><img src="scissor.png"></div>
+                        </div>
+                    </div>
+                    </td>
+                    <td id="enemy-choice">
+                    <div > 
+                        <h3>Enemy Choice!</h3>
+                        <div class='image-enemy-choice' id="rock-image"><img src="rock.png"></div>
+                        <div class='image-enemy-choice' id="paper-image"><img src="paper.png"></div>
+                        <div class='image-enemy-choice' id="scissor-image"><img src="scissor.png"></div>
+                    </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id='back-to-menu'>
+            <a href="index.html" >Back to Main Menu</a>
+        </div>
+        
+    <script src="suit.js"></script>
+    <script src="theme.js"></script>
+    </body>
+    </html>

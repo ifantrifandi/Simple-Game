@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RPG Game</title>
+        <link rel="stylesheet" href="rpg.css">
+    </head>
+    <body class="rpg-page">
+        <div class="main-title"><h1>Welcome to Basic RPG</h1></div>
+        <input type="button" value="Instruction" id="instruction">
+        <table class="center">
+            <tr>
+                <td id='char' class="no-border"> 
+                    <div>
+                        <img src="mainchar.jpg" id='myChar'>
+                    </div>
+                    <div>
+                        <table class="center font-color">
+                            <tr>
+                                <td class="color no-border" >Level</td>
+                                <td id='my-level' class="color no-border"></td>
+                            </tr>
+                            <tr>
+                                <td class="color no-border">Hp</td>
+                                <td id='my-hp' class="color no-border"></td>
+                            </tr>
+                            <tr>    
+                                <td class="color no-border">Attack</td>
+                                <td id='my-atk' class="color no-border"></td>
+                            </tr>
+                            <tr>
+                                <td class="color no-border">Defense</td>
+                                <td id='my-def' class="color no-border"></td>
+                            </tr>
+                            <tr>
+                                <td class="color no-border">Experience</td>
+                                <td id="my-exp" class="color no-border"></td>
+                            </tr>
+                            <tr>
+                                <td class="color no-border">Money</td>
+                                <td id="my-money" class="color no-border"></td>
+                            </tr>
+                        </table>
+                    </div> 
+                </td>
+                <td class="no-border">
+                    <div>
+                        <input type="button" value="Attack" id='attack'>
+                    </div>
+                    <div>
+                        <input type="button" value="Use Potion" id='potion'>
+                    </div>
+                    <div>
+                        <input type="button" value="New Enemy" id='newEnemy'>
+                    </div>
+                </td>
+                <td id='char-enemy' class="no-border">
+                    <div>
+                        <img src="monster.jpg" id='enemyChar'>
+                    </div>
+                    <table class="center font-color">
+                        <tr>
+                            <td class="color no-border">Hp</td>
+                            <td id='enemy-hp' class="color no-border"></td>
+                        </tr>
+                        <tr>
+                            <td class="color no-border">Attack</td>
+                            <td id='enemy-atk' class="color no-border"></td>
+                        </tr>
+                        <tr>
+                            <td class="color no-border">Defense</td>
+                            <td id='enemy-def' class="color no-border"></td>
+                        </tr>
+                    </table> 
+                </td>
+            </tr>
+        </table>
+
+        <div id='back-to-menu'>
+            <a href="index.html" >Back to Main Menu</a>
+        </div>
+    <script src="rpg.js"></script>
+    </body>
+</html>

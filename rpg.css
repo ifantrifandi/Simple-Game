@@ -1,0 +1,75 @@
+#myChar{
+    width: 200px;
+    height: 300px;
+}
+
+
+td{
+    text-align: center;
+    border: black 1px solid;
+    width: 50%;
+    
+}
+
+
+#enemyChar{
+    width: 300px;
+    height: 300px;
+}
+
+#char-enemy{
+    padding-top: 0;
+}
+
+table {
+    width: 50%;
+    text-align: center;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.rpg-page{
+    background-image: url('https://i.pinimg.com/originals/7a/a9/a6/7aa9a61ba94e18cecf823ec06bd4823a.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.color{
+    background-color: whitesmoke;
+}
+
+#back-to-menu{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+#back-to-menu a{
+    text-decoration: none;
+}
+
+.no-border{
+    border: none;
+    border-radius: 25%;
+}
+
+#attack, #potion, #newEnemy{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+#attack:hover, #potion:hover, #newEnemy:hover, #instruction:hover{
+    background-color: grey;
+}
+
